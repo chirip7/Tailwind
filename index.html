@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Details</title>
+    <!-- Tailwind css CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen bg-slate-200">
+        <div id="form" class="block bg-slate-50 p-6 round-x1 shadow-md shadow-slate-300 w-90">
+            <form mathod="post" action="#">
+                <h2 class="text-blue-700 text-3x1 font-semibold my-4">Register</h2>
+                <!-- fullname -->
+                
+                <!-- firstname-->
+                    
+                        <label for="fname" class="text-sm">Name</label>
+                        <input type="text" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm" id="fname" name="fname" required><br>
+                                <br>
+                <!-- email -->    
+                        <label for="email" class="text-sm">Email</label>
+                        <input type="email" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm" id="email" name="email" required><br><br>
+
+                <!-- phone -->    
+                        <label for="phone" class="text-sm">Phone</label>
+                        <input type="text" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm" id="phone" name="phone" required><br><br>
+                <!-- Upload file -->    
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Upload file</label>
+                        <input type="file" class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-blue-500 file:text-white hover:file:bg-blue-600 "/><br>
+                <div id="ctc" class="flex flex-row">        
+                 <!-- CTC-->
+                    <div id="ctc" class="w-1/2 mr-1">
+                        <label for="ctc" class="text-sm">CTC</label>
+                        <input type="text" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm" id="ctc" name="ctc" required><br><br>
+                    </div>
+                <!-- ECTC -->
+                    <div id="ectc" class="w-1/2 mr-1">
+                        <label for="ectc" class="text-sm">ECTC</label>
+                        <input type="text" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm" id="ectc" name="ectc" required><br><br>
+                    </div>
+                </div>
+                <br>
+                <!-- phone -->    
+                        <label for="Job" class="text-sm">Job Posting</label>
+                        <input type="text" class="h-8 w-full rounded-md border border-slate-300 text-sm pl-2 bg-transparent outline-blue-600 shadow-sm" id="job" name="job" required><br><br>
+
+                <!-- Signp -->
+                        <input type="submit" class="bg-blue-700 w-full h-10 cursor-pointer text-white rounded-md hover:bg-blue-600 hover:outline outline-2 outline-blue-600 outline-offset-2 text-sm" id="submit" name="submit"><br>
+                        <p class="text-xs my-2">Already have a Account? <a href="#" class="text-blue-600">Login</a></p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
